@@ -1,0 +1,308 @@
+/* Start Banner  */
+.home {
+    background: url(./Download/banner.jpg) no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h1 {
+    padding-top: 180px;
+    font-size: 5rem;
+}
+
+.content p {
+    margin: 0 auto;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    backdrop-filter: blur(4px);
+}
+
+.selector {
+    width: 70%;
+    margin: auto;
+}
+
+.selector select {
+    width: 250px;
+}
+
+/* End Banner */
+
+/* Start Cards */
+
+.Spots h1 {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.cards img {
+    height: 200px;
+}
+
+/* End Cards */
+
+/* Start Gallary  */
+.gallery .card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.gallery .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallery .card img:hover {
+    transform: scale(1.1);
+}
+
+/* End Gallary  */
+
+/* About Start */
+.about {
+    padding-top: 30px;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+.about .card {
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p {
+    font-weight: 500;
+}
+
+#about-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ff0000;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    width: 170px;
+}
+
+.vid {
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.history {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history-bg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* End About */
+
+/* Start Enqiury */
+.contact {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.enqiury {
+    width: 40%;
+}
+
+.carous img {
+    border-radius: 20px;
+
+}
+
+.flexform {
+    margin: 50px;
+    margin-top: 70px;
+}
+
+.sub-btn {
+    margin: o auto;
+}
+
+/* End Enqiury */
+
+/* Start FAQ */
+.faq h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.faq {
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* End FAQ */
+
+/* Start Footer */
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: -10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+footer h3 {
+    font-size: 1.1em;
+}
+
+footer p {
+    color: gray;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+/* End Footer */
+
+/* Start Form */
+.formcontent {
+    margin: 0 auto;
+}
+
+.formcontent select {
+    margin-top: 40px;
+}
+
+.dateandtime input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 40px;
+}
+
+.dateandtime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    background: url(./Download/form.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+/* End Form */
+
+
+@media (max-width:765px) {
+    .footer1 h1 {
+        text-align: center;
+    }
+
+    .main-txt h1 {
+        text-align: center;
+    }
+
+    .bannerbtn {
+        margin-left: -10%;
+    }
+
+    .about {
+        padding: 0;
+    }
+
+    .enqiury {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .contact {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .carous {
+        margin: 0 auto;
+    }
+
+    .history {
+        display: none;
+    }
+
+    .history-bg {
+        display: none;
+    }
+
+    .about {
+        padding-top: 150px;
+    }
+
+    .inputbox select {
+        display: block;
+    }
+
+    .navbar-toggler{
+        margin-right: 100px;
+    }
+    .nav-btn{
+        margin-left: -50px;
+    }
+
+    .Search input{
+        width: 200px;
+    }
+}
+
+
+.cardone h1 {
+    font-size: 1.4em;
+    width: 70%;
+}
+
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
